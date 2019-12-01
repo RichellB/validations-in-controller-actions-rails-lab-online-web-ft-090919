@@ -15,7 +15,7 @@ class PostsController < ApplicationController
       render :new 
     end 
 
-    redirect_to post_path(@post)
+   # redirect_to post_path(@post)
   end
 
   private
