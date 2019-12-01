@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     if @post.valid?
       @post.save 
     else 
-      render :new 
+      render :show
     end 
 
    # redirect_to post_path(@post)
