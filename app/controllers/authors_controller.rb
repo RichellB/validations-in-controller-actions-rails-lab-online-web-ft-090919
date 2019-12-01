@@ -12,7 +12,7 @@ class AuthorsController < ApplicationController
     if @author.save
       redirect_to author_path(@author)
     else
-      render :show
+      render :new
     end
    # redirect_to author_path(@author)
   end
